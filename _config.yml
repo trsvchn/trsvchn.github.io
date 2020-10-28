@@ -1,1 +1,24 @@
+title: Blog title
+name: Taras Savchyn
+description: >
+  My Blog.
+baseurl: ""
+url: ""
+
+show_excerpts: true
+
+twitter_username: trvschn
+github_username:  trsvchn
+rss: rss
+
+minima:     
+  date_format: "%b %-d, %Y"
+
+#header_pages:
+# - about.md
+
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
